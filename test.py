@@ -2,7 +2,7 @@
 def import_dictionary():
     dictionary = []
     try:
-        file = open("dictionary.txt", "r")#location of your dictionary or provided wordlist
+        file = open("Scrambled-Words-/dictionary.txt", "r")#location of your dictionary or provided wordlist
         fileContents = file.readlines() #read text file and store each new line as a string
     finally:
         file.close()
@@ -13,7 +13,7 @@ def import_dictionary():
 def import_scrambled_words():
     scrambledWords = []
     try:
-        file = open("scrambled-words.txt", "r") #location of your scrambled word file
+        file = open("Scrambled-Words-/scrambled-words.txt", "r") #location of your scrambled word file
         fileContents = file.readlines() #read text file and store each new line as a string
     finally:
         file.close()
