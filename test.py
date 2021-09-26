@@ -46,9 +46,9 @@ def unscramble_word(scrambledWord):
 if __name__ == '__main__':
     finalString = ""
     try:
-        scrambled = import_scrambled_words()
+        scrambled = "tset" #import_scrambled_words()
         print(scrambled)
-        dictionary = import_dictionary()
+        dictionary = "test" #import_dictionary()
         for x in scrambled:
             finalString += unscramble_word(x)
             finalString +=", "
