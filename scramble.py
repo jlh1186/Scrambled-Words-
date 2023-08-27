@@ -2,7 +2,7 @@
 #Unscramble List
 
 #Credits to HackThisSite
-#Version 1.1
+#Version ALPHA UK/US
 #Edited by Joseph Hutchens
 
 
